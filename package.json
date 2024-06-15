@@ -1,11 +1,16 @@
 {
-  "name": "backend",
-  "version": "1.0.0",
-  "description": "a backend using node ",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Tejas Gojariya",
-  "license": "ISC"
+    "name": "backend",
+    "version": "1.0.0",
+    "description": "a backend using node",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/index.js"
+    },
+    "author": "Tejas Gojariya",
+    "license": "ISC",
+    "devDependencies": {
+        "nodemon": "^3.1.3",
+        "prettier": "^3.3.2"
+    }
 }
